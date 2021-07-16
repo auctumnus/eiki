@@ -17,12 +17,13 @@
     "build": "rollpkg build",
     "build:test": "rollpkg build --noStats",
     "test": "pnpm build:test && uvu test",
-    "test:coverage": "c8 pnpm test && codecov",
-    "test:report": "c8 report --reporter=text,lcov > coverage.lcov",
+    "test:coverage": "c8 pnpm test",
+    "test:report": "c8 report",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
-    "docs": "typedoc --out docs src/index.ts"
+    "docs": "typedoc --out docs src/index.ts",
+    "codecov": "codecov -f coverage/lcov.info"
   },
   "devDependencies": {
     "c8": "^7.7.3",
