@@ -18,7 +18,7 @@
     "build:test": "rollpkg build --noStats",
     "test": "pnpm build:test && uvu test",
     "test:coverage": "c8 pnpm test",
-    "test:report": "c8 report",
+    "test:report": "c8 report --reporter=lcovonly",
     "lint": "prettier --check .",
     "lint:fix": "prettier --write .",
     "preinstall": "npx only-allow pnpm",
