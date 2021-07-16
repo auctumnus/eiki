@@ -1,9 +1,10 @@
 # Eiki
 
-[![npm][npm-badge]][npm]
+[![NPM package][npm-badge]][npm]
 [![Minified size][size-badge]][bundlephobia]
 [![Test status][test-badge]][workflow]
-[![docs][docs-badge]][docs]
+[![Documentation][docs-badge]][docs]
+[![Test coverage][codecov-badge]][codecov]
 
 [Eiki][yamaxanadu] is a library for judging values. It's extremely small and
 decomposable - if you only use a function and only part of that function, you'll
@@ -60,6 +61,8 @@ MIT.
 [test-badge]: https://img.shields.io/github/workflow/status/auctumnus/eiki/test?style=flat-square
 [workflow]: https://github.com/auctumnus/eiki/actions/workflows/main.yml
 [docs-badge]: https://img.shields.io/badge/docs-with%20typedoc-blue?style=flat-square
+[codecov-badge]: https://img.shields.io/codecov/c/gh/auctumnus/eiki?style=flat-square
+[codecov]: https://app.codecov.io/gh/auctumnus/eiki
 [yamaxanadu]: https://www.youtube.com/watch?v=BsBgCYL9Dn8
 [pnpm]: https://pnpm.io/
 [docs]: https://auctumnus.github.io/eiki
