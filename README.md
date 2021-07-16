@@ -47,15 +47,19 @@ are okay with that!
 Open up a pull request, and ensure the tests pass. If you've got an issue
 that would benefit from tests showing the issue, it'd be great if you added some!
 
+## License
+
+MIT.
+
 <a id="note1" href="#note1ref"><sup>1</sup></a>: I find it really funny to call anything in JS low-level.
 
 [npm-badge]: https://img.shields.io/npm/v/eiki?style=flat-square
 [npm]: https://www.npmjs.com/package/eiki
 [size-badge]: https://img.shields.io/bundlephobia/min/eiki?style=flat-square
 [bundlephobia]: https://bundlephobia.com/package/eiki
-[test-badge]: https://img.shields.io/github/workflow/status/auctumnus/eiki/test
+[test-badge]: https://img.shields.io/github/workflow/status/auctumnus/eiki/test?style=flat-square
 [workflow]: https://github.com/auctumnus/eiki/actions/workflows/main.yml
-[docs-badge]: https://img.shields.io/badge/docs-with%20typedoc-blue
+[docs-badge]: https://img.shields.io/badge/docs-with%20typedoc-blue?style=flat-square
 [yamaxanadu]: https://www.youtube.com/watch?v=BsBgCYL9Dn8
 [pnpm]: https://pnpm.io/
 [docs]: https://auctumnus.github.io/eiki
