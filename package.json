@@ -1,0 +1,54 @@
+{
+  "name": "eiki",
+  "version": "0.1.0",
+  "description": "The simplest validation library",
+  "author": "autumn",
+  "license": "MIT",
+  "keywords": [
+    "validation",
+    "typescript",
+    "schema"
+  ],
+  "sideEffects": false,
+  "main": "dist/eiki.cjs.js",
+  "module": "dist/eiki.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollpkg build",
+    "build:test": "rollpkg build --noStats",
+    "test": "pnpm build:test && uvu test",
+    "test:coverage": "c8 pnpm test",
+    "test:report": "c8 report --reporter=text,lcov > coverage.lcov",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write .",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "c8": "^7.7.3",
+    "esm": "^3.2.25",
+    "lint-staged": "^11.0.1",
+    "prettier": "^2.3.2",
+    "rollpkg": "^0.5.7",
+    "simple-git-hooks": "^2.5.1",
+    "typescript": "^4.3.5",
+    "uvu": "^0.5.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "lint-staged": {
+    "*.{ts,md,}": "prettier --write ."
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpx lint-staged"
+  },
+  "c8": {
+    "exclude": [
+      "dist/eiki.cjs.js",
+      "test"
+    ]
+  },
+  "dependencies": {
+    "fromentries": "^1.3.2"
+  }
+}
