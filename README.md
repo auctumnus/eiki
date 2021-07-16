@@ -1,5 +1,10 @@
 # Eiki
 
+[![npm][npm-badge]][npm]
+[![Minified size][size-badge]][bundlephobia]
+[![Test status][test-badge]][workflow]
+[![docs][docs-badge]][docs]
+
 [Eiki][yamaxanadu] is a library for judging values. It's extremely small and
 decomposable - if you only use a function and only part of that function, you'll
 only have a few dozen extra bytes added to your bundle!
@@ -24,7 +29,7 @@ eaten by `node_modules`.)
 
 ## Usage
 
-ill put up typedoc at some point but its well-commented and typed
+For usage help, [check out the documentation][docs]!
 
 ## Comparison
 
@@ -44,5 +49,13 @@ that would benefit from tests showing the issue, it'd be great if you added some
 
 <a id="note1" href="#note1ref"><sup>1</sup></a>: I find it really funny to call anything in JS low-level.
 
+[npm-badge]: https://img.shields.io/npm/v/eiki?style=flat-square
+[npm]: https://www.npmjs.com/package/eiki
+[size-badge]: https://img.shields.io/bundlephobia/min/eiki?style=flat-square
+[bundlephobia]: https://bundlephobia.com/package/eiki
+[test-badge]: https://img.shields.io/github/workflow/status/auctumnus/eiki/test
+[workflow]: https://github.com/auctumnus/eiki/actions/workflows/main.yml
+[docs-badge]: https://img.shields.io/badge/docs-with%20typedoc-blue
 [yamaxanadu]: https://www.youtube.com/watch?v=BsBgCYL9Dn8
 [pnpm]: https://pnpm.io/
+[docs]: https://auctumnus.github.io/eiki

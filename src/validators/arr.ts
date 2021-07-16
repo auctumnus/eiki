@@ -7,6 +7,7 @@ import { ValidationFunction } from '../types'
  * @returns A function which can be used to test if a value is an array and all members pass
  * a validation function.
  * @example
+ * ```
  * const stringArr = arr(str)
  * stringArr(['a'])            // true
  * stringArr(['a', 2])         // false
@@ -14,6 +15,7 @@ import { ValidationFunction } from '../types'
  * const anyArr = arr()
  * anyArr([])                  // true
  * anyArr([undefined, 'a', 2]) // true
+ * ```
  */
 export const arr = (s?: ValidationFunction) => (a: any) =>
   Array.isArray(a) && s ? a.every((o: any) => s(o)) : true

@@ -14,9 +14,10 @@ const isUrl = (s: string) => {
  * @param o The data to test.
  * @returns A boolean describing if the data is a url.
  * @example
- *
+ * ```
  * url('https://google.com') // true
  * url(2)                    // false
  * url('aaaa')               // false
+ * ```
  */
 export const url = (o: any) => str(o) && isUrl(o)

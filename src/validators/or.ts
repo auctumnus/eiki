@@ -8,10 +8,12 @@ import { ValidationFunction } from '../types'
  * @returns A validation function, which returns true if any given function returns true
  * on the tested data.
  * @example
+ * ```
  * const stringOrNumber = or(str, num)
  * stringOrNumber('a')       // true
  * stringOrNumber(2)         // true
  * stringOrNumber(undefined) // false
+ * ```
  */
 export const or =
   (...funcs: ValidationFunction[]) =>

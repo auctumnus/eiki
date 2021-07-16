@@ -7,6 +7,7 @@ export type Schema = Record<string, ValidationFunction>
  * @param s A schema - an object with keys mapping to boolean validation functions.
  * @returns A function which can be used to validate objects against a schema.
  * @example
+ * ```
  * const schema = obj({
  *   title: str,
  *   author: obj({
@@ -37,6 +38,7 @@ export type Schema = Record<string, ValidationFunction>
  *   age: num
  * }, true) // Ensure you set `strict` if you want to ensure that every key is present.
  * strictSchema({ }) // false
+ * ```
  */
 export const obj = (s: Schema) => (o: any) =>
   // First, check if `o` itself is defined.
