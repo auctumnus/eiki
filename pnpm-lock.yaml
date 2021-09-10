@@ -9,7 +9,7 @@ specifiers:
   prettier: 2.4.0
   rollpkg: 0.5.7
   simple-git-hooks: 2.6.1
-  typedoc: 0.21.9
+  typedoc: 0.22.0
   typescript: 4.4.2
   uvu: 0.5.1
 
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 2.4.0
   rollpkg: 0.5.7_typescript@4.4.2
   simple-git-hooks: 2.6.1
-  typedoc: 0.21.9_typescript@4.4.2
+  typedoc: 0.22.0_typescript@4.4.2
   typescript: 4.4.2
   uvu: 0.5.1
 
@@ -7063,8 +7063,8 @@ packages:
       object-visit: 1.0.1
     dev: true
 
-  /marked/3.0.2:
-    resolution: {integrity: sha512-TMJQQ79Z0e3rJYazY0tIoMsFzteUGw9fB3FD+gzuIT3zLuG9L9ckIvUfF51apdJkcqc208jJN2KbtPbOvXtbjA==}
+  /marked/3.0.3:
+    resolution: {integrity: sha512-4oIDhVSQ2s+xNCfek9OnZgCQR/WykGCom02JzIIvi4Pme+MIwPYqvGVW8CQWOXeoZu0TtVB6pTxIuoLm+dKqDA==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -9963,8 +9963,8 @@ packages:
     dev: true
     optional: true
 
-  /shiki/0.9.8:
-    resolution: {integrity: sha512-499zQUTjcNTVwwiaPrWldUTXIV3T9HZWxDwE82bY+9GE7P2uD6hpHUTXNbTof3iOG6WT+/062+OMbl0lDoG8WQ==}
+  /shiki/0.9.10:
+    resolution: {integrity: sha512-xeM7Oc6hY+6iW5O/T5hor8ul7mEprzyl5y4r5zthEHToQNw7MIhREMgU3r2gKDB0NaMLNrkcEQagudCdzE13Lg==}
     dependencies:
       json5: 2.2.0
       onigasm: 2.2.5
@@ -11067,26 +11067,18 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc-default-themes/0.12.10:
-    resolution: {integrity: sha512-fIS001cAYHkyQPidWXmHuhs8usjP5XVJjWB8oZGqkTowZaz3v7g3KDZeeqE82FBrmkAnIBOY3jgy7lnPnqATbA==}
-    engines: {node: '>= 8'}
-    dev: true
-
-  /typedoc/0.21.9_typescript@4.4.2:
-    resolution: {integrity: sha512-VRo7aII4bnYaBBM1lhw4bQFmUcDQV8m8tqgjtc7oXl87jc1Slbhfw2X5MccfcR2YnEClHDWgsiQGgNB8KJXocA==}
+  /typedoc/0.22.0_typescript@4.4.2:
+    resolution: {integrity: sha512-y6RnfkCHtU2NN3GqCQAQGvatxH1Vue3EU0SVBumvm198Ig9agiztwLH9h5wm8Nx91jCEd/nDKe3mTeiI/JlERA==}
     engines: {node: '>= 12.10.0'}
     hasBin: true
     peerDependencies:
       typescript: 4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x
     dependencies:
       glob: 7.1.7
-      handlebars: 4.7.7
       lunr: 2.3.9
-      marked: 3.0.2
+      marked: 3.0.3
       minimatch: 3.0.4
-      progress: 2.0.3
-      shiki: 0.9.8
-      typedoc-default-themes: 0.12.10
+      shiki: 0.9.10
       typescript: 4.4.2
     dev: true
 
