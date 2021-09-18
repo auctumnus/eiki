@@ -9,7 +9,7 @@ specifiers:
   prettier: 2.4.1
   rollpkg: 0.5.7
   simple-git-hooks: 2.6.1
-  typedoc: 0.22.3
+  typedoc: 0.22.4
   typescript: 4.4.3
   uvu: 0.5.1
 
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 2.4.1
   rollpkg: 0.5.7_typescript@4.4.3
   simple-git-hooks: 2.6.1
-  typedoc: 0.22.3_typescript@4.4.3
+  typedoc: 0.22.4_typescript@4.4.3
   typescript: 4.4.3
   uvu: 0.5.1
 
@@ -6530,6 +6530,10 @@ packages:
       minimist: 1.2.5
     dev: true
 
+  /jsonc-parser/3.0.0:
+    resolution: {integrity: sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==}
+    dev: true
+
   /jsonfile/4.0.0:
     resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
     optionalDependencies:
@@ -7068,8 +7072,8 @@ packages:
       object-visit: 1.0.1
     dev: true
 
-  /marked/3.0.3:
-    resolution: {integrity: sha512-4oIDhVSQ2s+xNCfek9OnZgCQR/WykGCom02JzIIvi4Pme+MIwPYqvGVW8CQWOXeoZu0TtVB6pTxIuoLm+dKqDA==}
+  /marked/3.0.4:
+    resolution: {integrity: sha512-jBo8AOayNaEcvBhNobg6/BLhdsK3NvnKWJg33MAAPbvTWiG4QBn9gpW1+7RssrKu4K1dKlN+0goVQwV41xEfOA==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -9971,10 +9975,10 @@ packages:
     dev: true
     optional: true
 
-  /shiki/0.9.10:
-    resolution: {integrity: sha512-xeM7Oc6hY+6iW5O/T5hor8ul7mEprzyl5y4r5zthEHToQNw7MIhREMgU3r2gKDB0NaMLNrkcEQagudCdzE13Lg==}
+  /shiki/0.9.11:
+    resolution: {integrity: sha512-tjruNTLFhU0hruCPoJP0y+B9LKOmcqUhTpxn7pcJB3fa+04gFChuEmxmrUfOJ7ZO6Jd+HwMnDHgY3lv3Tqonuw==}
     dependencies:
-      json5: 2.2.0
+      jsonc-parser: 3.0.0
       onigasm: 2.2.5
       vscode-textmate: 5.2.0
     dev: true
@@ -11075,8 +11079,8 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc/0.22.3_typescript@4.4.3:
-    resolution: {integrity: sha512-EOWf9Vf3Vfb/jzBzr87uoLybQw9fx3iyXLUcpQn9F2Ks1/ZJN9iGeBbYRU+VNqrWvV4T+aS7Ife7GFEJUf0ohQ==}
+  /typedoc/0.22.4_typescript@4.4.3:
+    resolution: {integrity: sha512-M/a8NnPxq3/iZNNVjzFCK5gu4m//HTJIPbSS0JQVbkHJPP9wyepR12agylWTSqeVZe0xsbidVtO26+PP7iD/jw==}
     engines: {node: '>= 12.10.0'}
     hasBin: true
     peerDependencies:
@@ -11084,9 +11088,9 @@ packages:
     dependencies:
       glob: 7.1.7
       lunr: 2.3.9
-      marked: 3.0.3
+      marked: 3.0.4
       minimatch: 3.0.4
-      shiki: 0.9.10
+      shiki: 0.9.11
       typescript: 4.4.3
     dev: true
 
