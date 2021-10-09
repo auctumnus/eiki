@@ -5,7 +5,7 @@ specifiers:
   codecov: 3.8.3
   esm: 3.2.25
   fromentries: ^1.3.2
-  lint-staged: 11.2.1
+  lint-staged: 11.2.2
   prettier: 2.4.1
   rollpkg: 0.5.7
   simple-git-hooks: 2.6.1
@@ -20,7 +20,7 @@ devDependencies:
   c8: 7.10.0
   codecov: 3.8.3
   esm: 3.2.25
-  lint-staged: 11.2.1
+  lint-staged: 11.2.2
   prettier: 2.4.1
   rollpkg: 0.5.7_typescript@4.4.3
   simple-git-hooks: 2.6.1
@@ -6749,8 +6749,8 @@ packages:
     resolution: {integrity: sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=}
     dev: true
 
-  /lint-staged/11.2.1:
-    resolution: {integrity: sha512-p56vAvBwABYSThvncT1Vuq0u6A8ZS56oC+eURfoavqyhBPJv+RGAmIU2kEYQOO19LPQVHQJ56eoBq/ARPlBoVQ==}
+  /lint-staged/11.2.2:
+    resolution: {integrity: sha512-rbtLCRTyndPJvtjpLwVjjb6K91jQrJ06oNArA4igPTGYlDCrJMIFbNDUAQGa4GRd8AjUBHkAAmq+K38tcmMaAQ==}
     hasBin: true
     dependencies:
       cli-truncate: 2.1.0
