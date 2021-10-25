@@ -9,7 +9,7 @@ specifiers:
   prettier: 2.4.1
   rollpkg: 0.5.7
   simple-git-hooks: 2.6.1
-  typedoc: 0.22.6
+  typedoc: 0.22.7
   typescript: 4.4.4
   uvu: 0.5.2
 
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 2.4.1
   rollpkg: 0.5.7_typescript@4.4.4
   simple-git-hooks: 2.6.1
-  typedoc: 0.22.6_typescript@4.4.4
+  typedoc: 0.22.7_typescript@4.4.4
   typescript: 4.4.4
   uvu: 0.5.2
 
@@ -7116,8 +7116,8 @@ packages:
       object-visit: 1.0.1
     dev: true
 
-  /marked/3.0.4:
-    resolution: {integrity: sha512-jBo8AOayNaEcvBhNobg6/BLhdsK3NvnKWJg33MAAPbvTWiG4QBn9gpW1+7RssrKu4K1dKlN+0goVQwV41xEfOA==}
+  /marked/3.0.8:
+    resolution: {integrity: sha512-0gVrAjo5m0VZSJb4rpL59K1unJAMb/hm8HRXqasD8VeC8m91ytDPMritgFSlKonfdt+rRYYpP/JfLxgIX8yoSw==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
@@ -10019,8 +10019,8 @@ packages:
     dev: true
     optional: true
 
-  /shiki/0.9.11:
-    resolution: {integrity: sha512-tjruNTLFhU0hruCPoJP0y+B9LKOmcqUhTpxn7pcJB3fa+04gFChuEmxmrUfOJ7ZO6Jd+HwMnDHgY3lv3Tqonuw==}
+  /shiki/0.9.12:
+    resolution: {integrity: sha512-VXcROdldv0/Qu0w2XvzU4IrvTeBNs/Kj/FCmtcEXGz7Tic/veQzliJj6tEiAgoKianhQstpYmbPDStHU5Opqcw==}
     dependencies:
       jsonc-parser: 3.0.0
       onigasm: 2.2.5
@@ -11123,8 +11123,8 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc/0.22.6_typescript@4.4.4:
-    resolution: {integrity: sha512-ePbJqOaz0GNkU2ehRwFwBpLD4Gp6m7jbJfHysXmDdjVKc1g8DFJ83r/LOZ9TZrkC661vgpoIY3FjSPEtUilHNA==}
+  /typedoc/0.22.7_typescript@4.4.4:
+    resolution: {integrity: sha512-ndxxp+tU1Wczvdxp4u2/PvT1qjD6hdFdSdehpORHjE+JXmMkl2bftXCR0upHmsnesBG7VCcr8vfgloGHIH8glQ==}
     engines: {node: '>= 12.10.0'}
     hasBin: true
     peerDependencies:
@@ -11132,9 +11132,9 @@ packages:
     dependencies:
       glob: 7.2.0
       lunr: 2.3.9
-      marked: 3.0.4
+      marked: 3.0.8
       minimatch: 3.0.4
-      shiki: 0.9.11
+      shiki: 0.9.12
       typescript: 4.4.4
     dev: true
 
