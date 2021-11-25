@@ -9,7 +9,7 @@ specifiers:
   prettier: 2.4.1
   rollpkg: 0.5.7
   simple-git-hooks: 2.7.0
-  typedoc: 0.22.9
+  typedoc: 0.22.10
   typescript: 4.5.2
   uvu: 0.5.2
 
@@ -24,7 +24,7 @@ devDependencies:
   prettier: 2.4.1
   rollpkg: 0.5.7_typescript@4.5.2
   simple-git-hooks: 2.7.0
-  typedoc: 0.22.9_typescript@4.5.2
+  typedoc: 0.22.10_typescript@4.5.2
   typescript: 4.5.2
   uvu: 0.5.2
 
@@ -11106,12 +11106,12 @@ packages:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=}
     dev: true
 
-  /typedoc/0.22.9_typescript@4.5.2:
-    resolution: {integrity: sha512-84PjudoXVcap6bwdZFbYIUWlgdz/iLV09ZHwrCzhtHWXaDQG6mlosJ8te6DSThuRkRvQjp46HO+qY/P7Gpm78g==}
+  /typedoc/0.22.10_typescript@4.5.2:
+    resolution: {integrity: sha512-hQYZ4WtoMZ61wDC6w10kxA42+jclWngdmztNZsDvIz7BMJg7F2xnT+uYsUa7OluyKossdFj9E9Ye4QOZKTy8SA==}
     engines: {node: '>= 12.10.0'}
     hasBin: true
     peerDependencies:
-      typescript: 4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x
+      typescript: 4.0.x || 4.1.x || 4.2.x || 4.3.x || 4.4.x || 4.5.x
     dependencies:
       glob: 7.2.0
       lunr: 2.3.9
