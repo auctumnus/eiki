@@ -33,7 +33,7 @@
     "prettier": "2.5.1",
     "rollpkg": "0.5.7",
     "simple-git-hooks": "2.7.0",
-    "typedoc": "0.22.12",
+    "typedoc": "0.22.13",
     "typescript": "4.6.2",
     "uvu": "0.5.3"
   },
