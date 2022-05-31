@@ -29,7 +29,7 @@
     "c8": "7.11.3",
     "codecov": "3.8.3",
     "esm": "3.2.25",
-    "lint-staged": "11.2.6",
+    "lint-staged": "12.5.0",
     "prettier": "2.6.2",
     "rollpkg": "0.5.7",
     "simple-git-hooks": "2.8.0",
